@@ -6,7 +6,7 @@ description: This is a config to check if LICENSE.MD is present in repo.
 resource: repository
 where:
 - |
-  repository.name.startsWith("GitOps", StringComparison.InvariantCultureIgnoreCase) 
+  repository.name.startsWith("asdfasdfasdfasdfadsf", StringComparison.InvariantCultureIgnoreCase) 
 
 # primitive configuration
 configuration:
