@@ -1,0 +1,35 @@
+# metadata
+name: This repo is missing a license file
+description: This is a config to check if LICENSE.MD is present in repo.
+
+# filters
+resource: repository
+where:
+- |  
+  repository.name.equals("tvm_build", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("api-management-self-hosted-gateway-ingress", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("aaz", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("azure-sphere-nre-yocto", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("azure-saas", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("azure-sphere-os-scenario-tests", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("C3", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("Azure-Functions", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("fta-wiki", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("expert-rotary-phone", StringComparison.InvariantCultureIgnoreCase)
+
+# primitive configuration
+configuration:
+    mandatoryFiles:
+     issueTitle: This repo is missing a license file
+     issueBody: |
+            This repository is currently missing a LICENSE.MD file outlining its license. A license helps users understand how to use your project in a compliant manner. You can find the standard MIT license text at the Microsoft repo templates LICENSE file: https://github.com/microsoft/repo-templates/blob/main/shared/LICENSE.
+            If you would like to learn more about open source licenses, please visit the document at https://aka.ms/license. 
+     prTitle: Adding Microsoft LICENSE
+     prBody: 
+     file:
+      - path: LICENSE.MD
+        ignoreCase: true
+        ignoreExtension: true
+     issueReminder:
+        firstReminderGapDays: -1      
+        followUpReminderGapDays: 0
