@@ -5,7 +5,8 @@ description: This is a config to check if LICENSE.MD is present in repo.
 # filters
 resource: repository
 where:
-- |  repository.name.equals("tvm_build", StringComparison.InvariantCultureIgnoreCase)
+- |  
+  repository.name.equals("tvm_build", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("api-management-self-hosted-gateway-ingress", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("aaz", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("azure-sphere-nre-yocto", StringComparison.InvariantCultureIgnoreCase)
