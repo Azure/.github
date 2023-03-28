@@ -5,6 +5,7 @@ resource: repository
 where:
 - |
   repository.name.equals("Azure-Proactive-Resiliency-Library", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("azure-functions-durable-python", StringComparison.InvariantCultureIgnoreCase)
 configuration:
   activateFabricBot:
     activate: true
