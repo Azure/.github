@@ -6,6 +6,7 @@ where:
 - |
   repository.name.equals("Azure-Proactive-Resiliency-Library", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("azure-functions-durable-python", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("Azure-Governance-Visualizer", StringComparison.InvariantCultureIgnoreCase)
 configuration:
   activateFabricBot:
     activate: true
