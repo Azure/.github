@@ -103,7 +103,7 @@ configuration:
          - OhMyGuus-Bot
          - podman-desktop-bot
          - liurunliang-bot
-         - azure-service-operator-automation
+         - azure-service-operator-automation[bot]
       prohibitedCompanies:
          - msft
       autoSignMsftEmployee: true
