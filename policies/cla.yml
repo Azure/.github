@@ -25,6 +25,8 @@ configuration:
          - msftbot[bot]
          - azure-pipelines[bot]
          - CBL-Mariner-Bot
+         - Copilot
+         - Copilot[bot]
          - pbicvbot
          - acomghbot
          - azuresdkciprbot
