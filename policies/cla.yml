@@ -1,12 +1,12 @@
-name: Contributor License Agreement Policy 
+name: Contributor License Agreement Policy
 description: CLA policy file
 
 resource: repository
 
-configuration: 
+configuration:
    cla:
       content: https://raw.githubusercontent.com/microsoft/.github/main/CLA/microsoft.yml
-      minimalChangeRequired: 
+      minimalChangeRequired:
          files: 2
          codeLines: 16
       bypassOrgs:
@@ -106,6 +106,7 @@ configuration:
          - podman-desktop-bot
          - liurunliang-bot
          - azure-service-operator-automation[bot]
+         - azcu-helper-github-app[bot]
       prohibitedCompanies:
          - msft
       autoSignMsftEmployee: true
