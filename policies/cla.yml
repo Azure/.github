@@ -112,6 +112,7 @@ configuration:
          - acp-pipeline-prod-3[bot]
          - acp-pipeline-prod-4[bot]
          - chatconfig-production[bot]
+         - azure-verified-modules[bot]
       prohibitedCompanies:
          - msft
       autoSignMsftEmployee: true
