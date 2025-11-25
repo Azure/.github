@@ -13,6 +13,7 @@ configuration:
          - bloomberg
       bypassUsers:
          - dependabot[bot]
+         - openshift-ci-robot
          - greenkeeper[bot]
          - dotnet-maestro[bot]
          - dependabot-preview[bot]
