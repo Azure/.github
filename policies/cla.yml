@@ -14,7 +14,7 @@ configuration:
       bypassUsers:
          - dependabot[bot]
          - openshift-ci-robot
-         - aro-hcp-image-bumper[bot]
+         - aro-hcp-robot[bot]
          - greenkeeper[bot]
          - dotnet-maestro[bot]
          - dependabot-preview[bot]
