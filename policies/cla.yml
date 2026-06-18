@@ -15,6 +15,7 @@ configuration:
          - dependabot[bot]
          - openshift-ci-robot
          - aro-hcp-robot[bot]
+         - redhat-chai-bot
          - greenkeeper[bot]
          - dotnet-maestro[bot]
          - dependabot-preview[bot]
