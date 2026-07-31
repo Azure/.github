@@ -117,6 +117,7 @@ configuration:
          - chatconfig-production[bot]
          - azure-verified-modules[bot]
          - azure-functions-release[bot]
+         - aiagentpool-mrbot[bot]
       prohibitedCompanies:
          - msft
       autoSignMsftEmployee: true
