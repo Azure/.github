@@ -118,6 +118,7 @@ configuration:
          - azure-verified-modules[bot]
          - azure-functions-release[bot]
          - aiagentpool-mrbot[bot]
+         - acc-cgpu-onboarding-release-app[bot]
       prohibitedCompanies:
          - msft
       autoSignMsftEmployee: true
